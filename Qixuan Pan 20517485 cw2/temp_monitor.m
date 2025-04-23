@@ -1,6 +1,6 @@
 %% TASK 2- LED TEMPERATURE MONITORINE DEVICE IMPLEMENTATION [25 MARKS]
 
-a=arduino; %Connect to arduino
+function temp_monitor(a)
 
 figure; %make a graphical window
 

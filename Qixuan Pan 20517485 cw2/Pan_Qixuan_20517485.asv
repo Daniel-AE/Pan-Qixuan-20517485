@@ -5,12 +5,9 @@
 
 a=arduino; %Connect to arduino
 
-for i=1:10 %Set LED to Flash 10 times
-    writeDigitalPin(a,'D13',1); %Open the LED
-    pause(0.5); %Wait for 0.5 seconds
-    writeDigitalPin(a,'D13',0); %Close the LED
-    pause(0.5); %Wait for 0.5 seconds
-end
+writeDigitalPin(a,'D13',1);
+pause(0.5);
+writeDigitalPin()
 
 %% TASK 1-READ TEMPERATURE DATA, PLOT, AND WRITE TO A LOG FILE [20 MARKS]
 
