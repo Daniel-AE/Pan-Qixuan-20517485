@@ -1,0 +1,3 @@
+function Explain_of_tem_monitor
+sprintf('By reading the voltage value of Arduino, calculate the temperature and draw the curve of temperature variation over time. Different temperatures will cause different LED lights to turn on. When the temperature is between 18 degrees Celsius and 224 degrees Celsius, the green LED will turn on. When the temperature is below 18 degrees Celsius, the yellow LED turns on. When the temperature is higher than 24 degrees Celsius, the red LED turns on. Stop recording after ten minutes')
+end

@@ -1,0 +1,3 @@
+function Explain_of_tem_prediction
+sprintf('In the Task 3, I have to comtrol the LED depends on the temperature. The red LED will light up when the temperature rate is highrt that 4 degrees Celsius per minute. The green will light up when the temperature rate is between -4 and 4 degree Celsius per minute. The yellow LED will light up when the temperature rate is less than -4 degrees Celsius per minute.')
+end
